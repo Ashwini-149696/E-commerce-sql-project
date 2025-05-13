@@ -1,6 +1,27 @@
-# CSV-file-for-SQL-Practice
-Employee data CSV File for SQL Query Practice
-<Br><Br> Data screenshot <br>
-Watch Video : https://youtu.be/npzXmp4zJns?si=wG4FRePWX2hy0XrT
+# E-commerce SQL Analysis Project
 
-<img src="https://github.com/SatishDhawale/CSV-file-for-SQL-Practice/blob/1d1152fe5915de32ca08fc6421618f86032470b2/Data%20Screenshot.jpg" width="600">
+This project demonstrates how to design a relational database and perform SQL queries on a simple e-commerce platform using **PostgreSQL**.
+
+## Project Structure
+
+- `schema.sql` – Contains the schema to create `Customers`, `Products`, `Orders`, and `OrderDetails` tables
+- `sample_data.sql` – Inserts sample data into the database
+- `analysis_queries.sql` – Includes queries for business insights such as:
+  - Total revenue
+  - Top customers
+  - Monthly sales trends
+  - Top-selling products
+
+## Tools Used
+- PostgreSQL
+- SQL
+- Git & GitHub
+
+## How to Use
+1. Run `schema.sql` to set up the database
+2. Run `sample_data.sql` to insert example data
+3. Run `analysis_queries.sql` to analyze sales data
+
+---
+
+Feel free to fork or clone the repository and build on it!
