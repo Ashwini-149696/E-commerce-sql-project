@@ -1,27 +1,28 @@
-# E-commerce SQL Analysis Project
+# Sales Analysis Project (PostgreSQL)
 
-This project demonstrates how to design a relational database and perform SQL queries on a simple e-commerce platform using **PostgreSQL**.
+This project simulates an e-commerce sales environment and analyzes customer purchases, product performance, and revenue trends using SQL in a PostgreSQL database.
 
-## Project Structure
+## Files
 
-- `schema.sql` – Contains the schema to create `Customers`, `Products`, `Orders`, and `OrderDetails` tables
-- `sample_data.sql` – Inserts sample data into the database
-- `analysis_queries.sql` – Includes queries for business insights such as:
-  - Total revenue
-  - Top customers
-  - Monthly sales trends
-  - Top-selling products
+- `schema.sql` – Defines the database structure (tables and relationships)
+- `sample_data.sql` – Populates the database with test data
+- `analysis_queries.sql` – Contains SQL queries for data analysis (top customers, revenue, sales)
+- `README.md` – Explains the project setup and purpose
 
-## Tools Used
-- PostgreSQL
-- SQL
-- Git & GitHub
+## Getting Started
 
-## How to Use
-1. Run `schema.sql` to set up the database
-2. Run `sample_data.sql` to insert example data
-3. Run `analysis_queries.sql` to analyze sales data
+1. Run `schema.sql` to create the tables
+2. Run `sample_data.sql` to populate the database
+3. Use `analysis_queries.sql` to explore insights
 
----
+## Insights Covered
 
-Feel free to fork or clone the repository and build on it!
+- Total revenue from completed orders
+- Top 3 customers by total spending
+- Monthly revenue trends
+- Top-selling products by quantity
+- Product-level revenue analysis
+
+## Requirements
+
+- PostgreSQL installed (e.g., using pgAdmin or psql CLI)
